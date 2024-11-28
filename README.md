@@ -22,10 +22,10 @@ and NGINX.
 
 Install NGINX and add the following modules to your installation:
 
--   https://github.com/openresty/headers-more-nginx-module
--   https://github.com/google/ngx_brotli
--   https://github.com/vision5/ngx_devel_kit
--   https://github.com/openresty/set-misc-nginx-module
+-   HTTPS://github.com/openresty/headers-more-nginx-module
+-   HTTPS://github.com/google/ngx_brotli
+-   HTTPS://github.com/vision5/ngx_devel_kit
+-   HTTPS://github.com/openresty/set-misc-nginx-module
 
 Replace every occurrence of **wordpress.sample** in
 [`nginx/sites/wordpress.conf`](nginx/sites/wordpress.conf) with **yourdomain.com**
@@ -48,7 +48,7 @@ certbot certonly -d www.yourdomain.com --standalone
 
 ## PHP
 
-Install PHP 7.4 and [`Composer`](https://getcomposer.org/).
+Install PHP 7.4 and [`Composer`](HTTPS://getcomposer.org/).
 
 Create the session folder for PHP-FPM:
 
@@ -64,7 +64,7 @@ adduser --no-create-home --disabled-login --disabled-password wordpress
 
 ## WordPress
 
-Install [`Bedrock`](https://roots.io/bedrock/) in the
+Install [`Bedrock`](HTTPS://roots.io/bedrock/) in the
 **/usr/share/nginx/sites/wordpress/** directory and add the required WordPress
 plugins:
 
@@ -93,7 +93,7 @@ WP_CACHE=true
 
 ### WP CLI
 
-Setup [`WP CLI`](https://wp-cli.org/) and install WordPress:
+Setup [`WP CLI`](HTTPS://wp-cli.org/) and install WordPress:
 
 ```sh
 alias wp='wp --allow-root'
@@ -103,7 +103,7 @@ wp core install \
 	--admin_user="Administrator" \
 	--admin_password="Administrator" \
 	--admin_email="Administrator@PlayForm.LTD" \
-	--url="https://WordPress.Sample" \
+	--url="HTTPS://WordPress.Sample" \
 	--skip-email
 
 # Update permalink structure.
