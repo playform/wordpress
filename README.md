@@ -48,7 +48,7 @@ certbot certonly -d www.yourdomain.com --standalone
 
 ## PHP
 
-Install PHP 7.4 and [`Composer`](HTTPS://getcomposer.org/).
+Install PHP 7.4 and [`Composer`](https://getcomposer.org/).
 
 Create the session folder for PHP-FPM:
 
@@ -64,7 +64,7 @@ adduser --no-create-home --disabled-login --disabled-password wordpress
 
 ## WordPress
 
-Install [`Bedrock`](HTTPS://roots.io/bedrock/) in the
+Install [`Bedrock`](https://roots.io/bedrock/) in the
 **/usr/share/nginx/sites/wordpress/** directory and add the required WordPress
 plugins:
 
@@ -93,7 +93,7 @@ WP_CACHE=true
 
 ### WP CLI
 
-Setup [`WP CLI`](HTTPS://wp-cli.org/) and install WordPress:
+Setup [`WP CLI`](https://wp-cli.org/) and install WordPress:
 
 ```sh
 alias wp='wp --allow-root'
